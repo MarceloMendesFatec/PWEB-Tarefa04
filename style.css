@@ -18,6 +18,17 @@ button{
     font-size: x-large;
 }
 
+p{
+    margin: 0;
+}
+
+h3{
+    margin: 5px;
+}
+
+.clear{
+    clear: both;
+}
  .container{
      display:flex;
      flex-direction: column;
@@ -66,4 +77,9 @@ button{
  .output{
     display: flex;
     height: 10%;
+ }
+ .history{
+    display: flex; 
+    height: 100%;
+    flex-direction: column;
  }
